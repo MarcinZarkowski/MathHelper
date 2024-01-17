@@ -4,7 +4,7 @@ from tkinter import *
 def factors(y): #iterates through given number and if divisable, adds to list of factors. Then returns factors list. 
     if len(y)==0: #if no input is given, the function returns "No input. Click Reset.".
         return "No input. Click Reset."
-    if len(y)>1:
+    if "," in y:
         return "Too many inputs. Click Reset."
     x=int(y)
     x_factors = []
