@@ -1,2 +1,3 @@
 # Projects
-Independent projects 
+  This is a Greatest Common Factor and Least Common Multiple calculator. I used Euclid's Algorithm to make efficient calculations while also increasing its capacity for larger numbers. The calculator is also able to return factors of a number. 
+  Rather than using some of the built in math functions in Python's modules, I completed these functionalities without the use of any math modules. This also includes calculations such as N choose K and factorials which "choose" builds off of. I used Tkinter to make a simple UI which makes the app user friendly. There is also eror handling built in the UI which gives the user instructions on how to manuver around input errors that can occur. 
